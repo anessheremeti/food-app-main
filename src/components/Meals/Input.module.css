@@ -1,0 +1,58 @@
+.Inputi {
+    display: flex;
+    flex-direction: column;
+    width: 110%;
+}
+
+.label {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-right: 1rem;
+}
+
+.input {
+    display: flex;
+    font: inherit;
+    padding: 0.25rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    border: none;
+    margin-bottom: 0.5rem;
+    width: 15%;
+    margin-left: 32em;
+}
+
+.button {
+    font: inherit;
+    cursor: pointer;
+    background-color: #8a2b06;
+    border: 1px solid #8a2b06;
+    color: white;
+    padding: 0.25rem 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.button:hover,
+.button:active {
+    background-color: #641e03;
+    border-color: #641e03;
+}
+
+.label {
+    margin-left: 31em;
+}
+
+.label {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+.amount {
+    padding-top: 6.7px;
+    font-size: medium;
+}

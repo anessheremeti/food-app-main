@@ -1,0 +1,8 @@
+.Item_Modal {
+    position: relative;
+    top: 50%;
+    left: 25%;
+    border-radius: 10px 0px;
+    width: 50%;
+    background-color: white;
+}
