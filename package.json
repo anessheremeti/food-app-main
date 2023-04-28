@@ -1,6 +1,6 @@
 {
-    "homepage": "http://Anes039.github.io/food-app",
-    "name": "food-app",
+    "homepage": "http://Anes039.github.io/food-app-main",
+    "name": "food-app-main",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
