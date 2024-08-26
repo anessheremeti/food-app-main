@@ -1,21 +1,36 @@
 .form {
-    text-align: right;
+  text-align: right;
 }
 
-.form button {
-    font: inherit;
-    cursor: pointer;
-    background-color: #8a2b06;
-    border: 1px solid #8a2b06;
-    color: white;
-    padding: 0.25rem 2rem;
-    border-radius: 20px;
-    font-weight: bold;
-    margin-left: 15em;
+ .form  button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #8a2b06;
+  border: 1px solid #8a2b06;
+  color: white;
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-left: 15em;
 }
 
 .form button:hover,
 .form button:active {
-    background-color: #641e03;
-    border-color: #641e03;
+    cursor:pointer;
+  background-color: #641e03;
+  border-color: #641e03;
+}
+@media (max-width: 600px) {
+  .form button{
+    text-wrap: nowrap;
+    position: relative;
+    z-index: 88;
+    top: 0.2rem;
+    width: min(69%, 499px);
+    right: 0rem;
+    flex: 1 1;
+    bottom: 1rem;
+    border: 1;
+    margin-left:0rem;
+  }
 }

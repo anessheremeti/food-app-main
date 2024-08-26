@@ -58,3 +58,9 @@
         transform: scale(1);
     }
 }
+@media (max-width:600px) {
+    .button {
+        font:revert-layer;
+        margin-right:7rem;
+    }
+}
