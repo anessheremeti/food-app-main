@@ -15,7 +15,7 @@ const MealItem = (props) => {
   }
 
   return (
-    <div>
+    <div style={{display:'flex'}}>
       <ItemModal>
         <div className={styles.meal}>
           <h3>{props.name}</h3>

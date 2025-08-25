@@ -13,3 +13,6 @@ code {
 .checkout-form-visible {
     background-color: rgba(0, 0, 0, 0.5);
 }
+.meal_items{
+    background-color: red;
+}

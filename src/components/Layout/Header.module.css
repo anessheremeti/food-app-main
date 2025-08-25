@@ -31,3 +31,15 @@
 li {
     list-style-type: none;
 }
+.meal_items{
+  
+    display: flex
+    ;flex-direction: column;
+    justify-content: center;
+}
+
+@media(max-width:315px){
+    .title{
+        display: none;
+    }
+}

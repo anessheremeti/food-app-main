@@ -13,6 +13,7 @@
 
 .input {
     display: flex;
+    
     font: inherit;
     padding: 0.25rem;
     border-radius: 5px;
@@ -55,4 +56,9 @@
 .amount {
     padding-top: 6.7px;
     font-size: medium;
+}
+@media(max-width:320px){
+    .input{
+        flex-wrap:wrap;
+    }
 }

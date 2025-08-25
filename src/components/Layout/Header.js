@@ -6,7 +6,7 @@ import foodImage from "../../Img/meals.jpg"; // import the image file
 import MealsSummarry from "../Meals/MealsSummary";
 import MealItem from "../Meals/MealItem";
 import DUMMY_MEALS from "../Meals/dummy-meals";
-
+import '../../index.css';
 const Header = (props) => {
 
   
@@ -25,7 +25,7 @@ const Header = (props) => {
   return (
     <Card>
       <header className={styles.header}>
-        <h1>ReactMeals</h1>
+        <h1 className={styles.title}>ReactMeals</h1>
         <HeaderCartButton  onClick = {props.onShowCart}/>
       </header>
       <div className={styles['main-image']}>
